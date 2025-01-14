@@ -17,7 +17,7 @@ header {
     display: flex;
     align-items: center;
     font-size: 24px;
-    color: #FFE0C2;
+    color: white;
     font-weight: bold;
 }
 
@@ -34,7 +34,7 @@ li {
 a {
     text-decoration: none;
     font-size: 18px;
-    color: #FFE0C2;
+    color: white;
 }
 
 .container1 {
@@ -53,20 +53,22 @@ a {
 }
 
 .sign-up h1 {
-    color: #FFE0C2;
+    color: white;
     font-size: 48px;
     font-weight: 900;
 }
 
 .sign-up p {
     font-size: 18px;
-    color: #FFE0C2;
+    color: white;
     margin-bottom: 10px;
 }
 
 .sign-up button {
-    color: #FFE0C2;
+    color: white;
     background-color: #F76B15;
+    font-size: 18px;
+    font-weight: bold;
     padding: 10px;
     width: 130px;
     border: none;
@@ -108,27 +110,29 @@ a {
 .box p {
     text-align: center;
     color: #17120E;
+    font-size: 16px;
 }
 
 .container3 {
     display: flex;
     flex-direction: column;
     padding: 80px 220px;
-    background-color: #FFE0C2;
+    background-color: #E5E7EB;
 }
 
 .quote {
     font-size: 36px;
     color: #17120E;
     font-style: italic;
+    font-weight: 300;
     text-align: justify;
     text-justify: inter-word;
 }
 
 .autor {
     text-align: end;
-    font-weight: bold;
-    font-size: 26px;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .container4 {
@@ -138,23 +142,40 @@ a {
 }
 
 .box-signup {
+    display: flex;
+    gap: 200px;
     background-color: #F76B15;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 60px 110px;
 }
 
 .box-signup h3 {
     color: white;
+    font-size: 24px;
 }
 
 .box-signup p {
     color: white;
+    font-size: 18px;
+}
+
+.signup2 button {
+    color: white;
+    background-color: #F76B15;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    width: 130px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 
 .text-footer {
     background-color: #17120E;
-    color: #FFE0C2;
+    color: white;
     text-align: center;
-    padding: 30px 0px;
+    font-size: 18px;
+    padding: 50px 0px;
 }
+
